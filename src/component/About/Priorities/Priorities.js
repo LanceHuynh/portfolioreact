@@ -11,7 +11,7 @@ const PriorityItem = ({ iconClass, title, description }) => {
 
   return (
     <div className={`priority-item`}>
-      <div ref={iconRef} className={`icon-container space-pls-min scroll-items ${iconAnimate ? "pop-class" : ""}`}>
+      <div ref={iconRef} className={`icon-container1 space-pls-min scroll-items ${iconAnimate ? "pop-class" : ""}`}>
         <FontAwesomeIcon icon={iconClass} />
       </div>
       <h3 ref={titleRef} className={`icon-title ${titleAnimate ? "pop-class" : ""}`}>{title}</h3>

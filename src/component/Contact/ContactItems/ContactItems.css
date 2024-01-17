@@ -6,7 +6,7 @@
     margin-bottom: 2rem;
   }
 
-  .contact-icons .icon-container {
+  .contact-items .icon-container {
     text-align: center;
     display: inline-block;
     width: 7.5rem;
@@ -27,7 +27,12 @@
     color: deepskyblue;
     font-size: 1.5rem;
   }
-  
+
+  .icon-container svg{
+    position: relative;
+    font-size: 3rem;
+    color: white;
+}
   .contact-items p {
     font-weight: 300;
     font-size: 1.3rem;
