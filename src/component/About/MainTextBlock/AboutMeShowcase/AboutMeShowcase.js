@@ -11,13 +11,6 @@ const AboutMeShowcase = ({ iconClass, showcaseBigTitle, bigDescription, experien
   const { ref: bigTitleRef, animate: bigTitleAnimate } = useScrollPopUp();
   const { ref: bigDescriptionRef, animate: bigDescriptionAnimate } = useScrollPopUp();
 
-  useEffect(() => {
-    
-  }, []);
-
-
-    
-
   return (
     <div className="about-me-showcase">
       <animated.div ref={iconRef} className={Iconanimate ? "icon-outer-wrapper pop-class" : "icon-outer-wrapper"}>
