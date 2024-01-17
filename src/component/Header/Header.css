@@ -4,18 +4,33 @@
 .top-header {
     z-index: 5;
     background-color: rgba(0, 191, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px;
     position: fixed;
     top:0px;
     width: 100%;
-    color: #fff;
     padding: 4vh 3vw; /* Using vh and vw for padding */
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    transition: background-color .2s, color .2s, box-shadow .2s;
   }
+
+  .top-header a{
+    color: #fff;
+  }
+
+.scroll {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px; }
+
+  .scroll a {
+    color: deepskyblue; }
+
+.scroll .name a {
+    color: deepskyblue; }
   
-  .name {
+.name {
     font-family: 'Cookie', cursive;
     font-weight: 700;
     font-size: 2em;
@@ -23,7 +38,7 @@
     text-align: center; /* Center the text */
   }
   
-  .name a {
+.name a {
     color: #fff;
     text-decoration: none;
     font-size: 1.5em; /* Using em for font size */
