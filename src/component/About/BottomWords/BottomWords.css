@@ -1,0 +1,19 @@
+.bottom-words{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 8rem;
+    margin-top: 2rem;
+    
+}
+
+.bottom-words a{
+    display: inline-block;
+    text-decoration: none;
+    color: deepskyblue; 
+    font-weight: normal;
+    width: 21rem;
+}
+
+.bottom-words a:hover{
+    font-weight: bold;    
+}

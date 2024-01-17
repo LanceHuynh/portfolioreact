@@ -1,0 +1,10 @@
+.showcase-title{
+    transform: scale(0,0);
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.showcase-para{
+    transform: scale(0,0);
+    margin-bottom: 1rem;
+}

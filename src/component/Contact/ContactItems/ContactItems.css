@@ -1,0 +1,34 @@
+/* ContactItems.css */
+.contact-items {
+    flex-grow: 1;
+    text-align: center;
+    width: 20rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact-icons .icon-container {
+    text-align: center;
+    display: inline-block;
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 50%;
+    background-color: deepskyblue;
+    padding: 1.875rem;
+    font-weight: 900;
+    font-size: 3.5rem;
+    color: white;
+
+  }
+  .contact-icons .svg-inline--fa {
+    vertical-align: 0;
+  }
+  
+  .contact-items h3 {
+    color: deepskyblue;
+    font-size: 1.5rem;
+  }
+  
+  .contact-items p {
+    font-weight: 300;
+    font-size: 1.3rem;
+  }

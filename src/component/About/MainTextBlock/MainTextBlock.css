@@ -1,0 +1,32 @@
+.main-text-block {
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+    top: -10rem;
+    z-index: 2;
+    margin: 0 auto;
+    max-width: 150rem;
+    width: 90%;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 3px;
+}
+
+.pop-class{
+    animation: popping 0.25s ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes popping {
+    0% {
+      opacity: 0; 
+      transform: scale(0, 0); }
+    70% {
+      opacity: 0.7; 
+      transform: scale(1.1, 1.1); }
+    100% {
+      opacity: 1;
+      transform: scale(1, 1); } }

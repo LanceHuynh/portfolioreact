@@ -1,0 +1,30 @@
+/* Header.css */
+@import url('https://fonts.googleapis.com/css?family=Cookie|Montserrat:300,400,700|Playfair+Display');
+
+.top-header {
+    z-index: 5;
+    background-color: rgba(0, 191, 255, 0.8);
+    position: fixed;
+    top:0px;
+    width: 100%;
+    color: #fff;
+    padding: 4vh 3vw; /* Using vh and vw for padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  }
+  
+  .name {
+    font-family: 'Cookie', cursive;
+    font-weight: 700;
+    font-size: 2em;
+    flex: 1; /* Allow .name to take up remaining space */
+    text-align: center; /* Center the text */
+  }
+  
+  .name a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em; /* Using em for font size */
+  }

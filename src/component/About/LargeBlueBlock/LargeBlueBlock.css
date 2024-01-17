@@ -1,0 +1,25 @@
+.large-blue-block{
+    text-align: center;
+    padding-bottom: 30vh;
+    padding-top: 30vh;
+    position: relative;
+    width: 100%;
+    background-color: rgba(0, 191, 255, 0.85);
+}
+.about-title{
+    position: relative;
+    font-size: 2.2rem;
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 1.875rem;
+}
+
+.about-title-extra-text {
+    position: relative;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    color: white;
+    width: 65%;
+    min-width: 300px;
+}

@@ -1,0 +1,55 @@
+
+/* HeroContentContainer.css */
+.hero {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/hero.jpg);
+    background-position: top left;
+    background-size: 100% 100%;
+  }
+ 
+.hero:after{
+    z-index: 0;
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #00BFFF;
+    opacity: 0.7;
+  }
+
+.hero-para-container{
+    z-index: 1;
+    opacity: 1;
+    text-align: center;
+    position: absolute;
+    width: 800px;
+    max-width: 70%;
+    color: white;
+    top: 50%;
+    left: 50%;
+    font-weight: 500;
+    transform: translate(-50%, -50%);
+}    
+
+.hero-para {
+    transform: translate(0px, 0px);
+    font-size: 3.5rem;
+    margin-bottom: 1.25rem;
+    font-weight: 700;
+  }
+  
+.small-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  
+  /* Example styling for the FontAwesome icon */
+.fa-chevron-down {
+    font-size: 5rem;
+    color: #e6e6e6;
+    position: relative
+  }

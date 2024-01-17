@@ -1,0 +1,9 @@
+/* Navigation.css */
+.top-nav {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    text-align: left;
+    width:30%;
+  }
+  
