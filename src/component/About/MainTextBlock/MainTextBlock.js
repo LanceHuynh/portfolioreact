@@ -1,9 +1,17 @@
 // MainTextBlock.js
-import React from 'react';
+import React, {useEffect} from 'react';
+import { useScroll, animated } from '@react-spring/web';
 import AboutMeShowcase from './AboutMeShowcase/AboutMeShowcase';
 import './MainTextBlock.css';
 
 const MainTextBlock = () => {
+
+    //paralax main-text-block
+    const { scrollY } = useScroll()
+
+    useEffect(() => {
+    }, []);
+    //
     const showcasesData = [
         {
           iconClass: "fa-pencil-alt",
@@ -25,11 +33,13 @@ const MainTextBlock = () => {
         },
       ];
   return (
-    <div className="main-text-block">
+    <animated.div className="main-text-block" style={{
+      transform: scrollY.to((value) => `translateY(${0-0.3*value}px)`),
+    }}>
       {showcasesData.map((data, index) => (
         <AboutMeShowcase key={index} {...data} />
       ))}
-    </div>
+    </animated.div>
   );
 };
 

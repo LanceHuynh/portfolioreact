@@ -9,7 +9,6 @@ const useScrollPopUp = (threshold = 0.8) => {
     const handleScroll = () => {
       const boundingBox = ref.current.getBoundingClientRect();
       setAnimate((prevAnimate) => boundingBox.top < threshold * window.innerHeight);
-      console.log([boundingBox.top, threshold * window.innerHeight], animate, ref.current.className);
     };
 
     // Initial check when the component mounts
