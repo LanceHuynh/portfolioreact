@@ -8,7 +8,7 @@ const BottomWords = () => {
   const { ref: bottomRef, animate: bottomAnimate } = useScrollPopUp();
   return (
     <div ref={bottomRef} className={`bottom-words ${bottomAnimate ? "go" : ""}`}>
-      <p>Interested? <a href="/contact">Get in touch!</a></p>
+      <p>Want to know more? <a href="/contact">Get in touch!</a></p>
     </div>
   );
 };

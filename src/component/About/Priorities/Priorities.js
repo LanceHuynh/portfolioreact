@@ -26,8 +26,7 @@ const Priorities = () => {
 
   return (
     <div className="priorities">
-      <div className="line-with-shadow">
-      </div>
+      
       <h1 ref={paraRef} className={paraAnimate ? "pop-class": null}>My priorities</h1>
       <div className="priority-icons-container">
         <PriorityItem iconClass="fa-check" title="Coding convention" description="Adhere to standards" />

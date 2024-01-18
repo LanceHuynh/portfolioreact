@@ -12,7 +12,7 @@ const Header = () => {
   
   useEffect(() => {
     const handleScroll = () => {
-      setMoved(window.scrollY == 0)
+      setMoved(window.scrollY <= 30)
     };
 
     // Initial check when the component mounts
