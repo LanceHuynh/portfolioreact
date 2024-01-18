@@ -7,7 +7,6 @@ import Priorities from './Priorities/Priorities';
 import BottomWords from './BottomWords/BottomWords';
 import useFadeIn from '../Animation/fadeIn'; // Import the useFadeIn hook
 import './About.css';
-import { useEffect } from 'react';
 
 const About = () => {
 

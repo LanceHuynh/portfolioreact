@@ -1,12 +1,18 @@
 
 /* HeroContentContainer.css */
 .hero {
-    display: block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: -1;
     width: 100%;
     height: 100vh;
     background-image: url(../images/hero.jpg);
     background-position: top left;
     background-size: 100% 100%;
+    overflow-y: hidden;
+    /*Remove later!!!!!*/
+    margin-bottom: 50rem;
   }
  
 .hero:after{
@@ -29,14 +35,10 @@
     width: 800px;
     max-width: 70%;
     color: white;
-    top: 50%;
-    left: 50%;
     font-weight: 500;
-    transform: translate(-50%, -50%);
 }    
 
 .hero-para {
-    transform: translate(0px, 0px);
     font-size: 3.5rem;
     margin-bottom: 1.25rem;
     font-weight: 700;
