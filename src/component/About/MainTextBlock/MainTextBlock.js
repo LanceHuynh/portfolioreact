@@ -34,7 +34,7 @@ const MainTextBlock = () => {
       ];
   return (
     <animated.div className="main-text-block" style={{
-      transform: scrollY.to((value) => `translateY(${0-0.3*value}px)`),
+      transform: scrollY.to((value) => `translateY(${-0.3*value}px)`),
     }}>
       {showcasesData.map((data, index) => (
         <AboutMeShowcase key={index} {...data} />
