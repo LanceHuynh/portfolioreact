@@ -46,7 +46,13 @@
 .priorities{
     
     position: relative;
-    top: -5rem;
+    top: -8rem;
+}
+
+.line-with-shadow{
+    height: 1rem;
+    margin-bottom: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0.5px 1px;
 }
 
 .priorities h1{
