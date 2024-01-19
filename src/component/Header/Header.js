@@ -34,7 +34,7 @@ const Header = () => {
       
       {/* Name Component */}
       <div className="name">
-        <a href="/">Lan Huynh</a>
+        <a>Lan Huynh</a>
       </div>
       
       {/* Social Icons Component */}
