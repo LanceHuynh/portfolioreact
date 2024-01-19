@@ -11,8 +11,6 @@
     background-position: top left;
     background-size: 100% 100%;
     overflow-y: hidden;
-    /*Remove later!!!!!*/
-    margin-bottom: 50rem;
   }
  
 .hero:after{
@@ -49,9 +47,33 @@
     font-weight: 400;
   }
   
+.arrow-down-container{
+  display: inline-block;
+}
+
   /* Example styling for the FontAwesome icon */
 .fa-chevron-down {
+    margin-top: 2rem;
     font-size: 5rem;
     color: #e6e6e6;
-    position: relative
+    position: relative;
+    animation-name: scrollDown;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-delay: 0.5s;
   }
+
+  .fa-chevron-down:hover {
+    cursor: pointer;
+  }
+
+
+
+  @keyframes scrollDown {
+    from {
+      opacity: 1;
+      top: -20px; }
+    to {
+      opacity: 0;
+      top: 20px; } }
