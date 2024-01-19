@@ -1,10 +1,14 @@
 // NavItem.js
 import React from 'react';
 import './NavItem.css';
+import { useRouteContext } from 'component/Context/RouteContext';
 
-const NavItem = ({ href, children }) => {
+const NavItem = ({ ele, children }) => {
+
+  const {toggleElement} = useRouteContext(); 
+
   return (
-    <a href={href} className="nav-items">
+    <a onClick={()=>{toggleElement(ele)}} className="nav-items">
       {children}
     </a>
   );

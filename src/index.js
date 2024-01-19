@@ -5,13 +5,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
+import { RouteProvider } from './component/Context/RouteContext';
 
 library.add(fas);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouteProvider>
+      <App />
+    </RouteProvider>
   </React.StrictMode>
 );
 

@@ -11,4 +11,5 @@
     
 .nav-items:hover {
    font-weight: bold; /* Simulate bold effect */
+   cursor: pointer;
 }
