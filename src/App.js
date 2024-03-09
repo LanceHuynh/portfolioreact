@@ -8,6 +8,7 @@ import About from 'component/About/About';
 import Contact from 'component/Contact/Contact';
 
 const App = () => {
+
   const { activeElement } = useRouteContext();
   return (
     <ScrollProvider>
