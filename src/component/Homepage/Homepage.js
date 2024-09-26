@@ -10,15 +10,15 @@ import ProjectContainer from 'component/template/Project-container/Project-conta
 const Homepage = () => {
   // projects data
   const projectListPersonal = [
-    { name: "Yellow Lotus", description: "*Not an actual company" },
-    { name: "Finnish News", description: "It's outdated" },
-    { name: "Shopview with Sorting", description: "Type something in the search bar!" },
+    { name: "Yellow Lotus", description: "*Not an actual company", url: "https://lancehuynh.github.io/yellow-lotus/" },
+    { name: "Finnish News", description: "It's outdated", url: "https://lancehuynh.github.io/Finnishnews/" },
+    { name: "Shopview with Sorting", description: "Type something in the search bar!", url: "https://lancehuynh.github.io/SearchFilter/" },
   ];
 
   const projectListIntern= [
-    { name: "Rules", description: "Who even read these?" },
-    { name: "Submit form", description: "Maybe you could have won" },
-    { name: "Judges infomation", description: "Know thy enemies!" },
+    { name: "Rules", description: "Who even read these?", url: "https://lancehuynh.github.io/Asanzo-thele/" },
+    { name: "Submit form", description: "Maybe you could have won", url: "https://lancehuynh.github.io/Asanzo-guibai/" },
+    { name: "Judges infomation", description: "Know thy enemies!", url: "https://lancehuynh.github.io/Asanzo-giamkhao/" },
   ];
 
   //reference to scroll to
@@ -52,7 +52,7 @@ const Homepage = () => {
     <br/>
     <br/>
     <br/>
-    
+
     </animated.div>
   );
 };
