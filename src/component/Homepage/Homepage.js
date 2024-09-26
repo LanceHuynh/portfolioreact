@@ -46,7 +46,7 @@ const Homepage = () => {
       <div id ="scrollTo"></div>
 
       <ProjectContainer title="Personal Work" projectlist={projectListPersonal} />
-      <ProjectContainer title="Intern Work" projectlist={projectListIntern} extra="Asanzo logo making context" />
+      <ProjectContainer title="Intern Work" projectlist={projectListIntern} extra="Asanzo logo making contest" />
     <br/>
     <br/>
     <br/>
